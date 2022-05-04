@@ -41,9 +41,9 @@ I realized many rows in my dataset had selftext that was removed or deleted, so 
 
 #### Model Creation: Iteration 2
 The new goal was to create a model that beats the baseline model with an accuracy score of 0.595. With default CountVectorizer and model parameters, the accuracy scores were as follows:
-* Multinomial Naive Bayes accuracy score :  0.9418103448275862
-* Logistic Regression accuracy score :  0.9213362068965517
-* Random Forest Classifier accuracy score :  0.9191810344827587
+* Multinomial Naive Bayes accuracy score :  0.9418
+* Logistic Regression accuracy score :  0.9213
+* Random Forest Classifier accuracy score :  0.9192
 
 ##### Hyperparameter Tuning
 After conducting some hyperparameter tuning using GridSearchCV, the updated scores were as follows:
